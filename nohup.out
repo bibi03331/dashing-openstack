@@ -1,0 +1,546 @@
+/usr/lib/ruby/vendor_ruby/bundler/source/git.rb:177:in `rescue in load_spec_files': https://github.com/dominikh/filesize.git (at master) is not checked out. Please run `bundle install` (Bundler::GitError)
+	from /usr/lib/ruby/vendor_ruby/bundler/source/git.rb:175:in `load_spec_files'
+	from /usr/lib/ruby/vendor_ruby/bundler/source/path.rb:86:in `local_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/source/git.rb:150:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/lazy_specification.rb:52:in `__materialize__'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:88:in `block in materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:85:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:85:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:114:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:159:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:148:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:120:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler/setup.rb:17:in `<top (required)>'
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+10.0.0.28 - - [31/Dec/2014 10:21:37] "GET /dashboard HTTP/1.1" 200 4991 0.0031
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/image.html HTTP/1.1" 200 73 0.0016
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/health.html HTTP/1.1" 200 224 0.0011
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/number.html HTTP/1.1" 200 339 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/meter.html HTTP/1.1" 200 332 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/graph.html HTTP/1.1" 200 167 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0008
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0008
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /events HTTP/1.1" 200 - 7.6002
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /dashboard HTTP/1.1" 200 4991 0.0065
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/image.html HTTP/1.1" 200 73 0.0012
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/health.html HTTP/1.1" 200 224 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/meter.html HTTP/1.1" 200 332 0.0011
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/number.html HTTP/1.1" 200 339 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/graph.html HTTP/1.1" 200 167 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0009
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /events HTTP/1.1" 200 - 1063.8519
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /dashboard HTTP/1.1" 200 4991 0.0043
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/image.html HTTP/1.1" 200 73 0.0007
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/health.html HTTP/1.1" 200 224 0.0006
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/meter.html HTTP/1.1" 200 332 0.0088
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/number.html HTTP/1.1" 200 339 0.0005
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0007
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /events HTTP/1.1" 200 - 6177.4286
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /dashboard HTTP/1.1" 200 4991 0.0074
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.30 - - [11/Mar/2015 11:26:07] "GET /dashboard HTTP/1.1" 200 4991 0.0028
+192.168.1.30 - - [11/Mar/2015 11:26:07] "GET /events HTTP/1.1" 200 - 6.9016
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/image.html HTTP/1.1" 200 73 0.0006
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:08] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+/var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/daemonizing.rb:129:in `send_signal': Can't stop process, no PID found in tmp/pids/thin.pid (Thin::PidFileNotFound)
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/daemonizing.rb:111:in `kill'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/controllers/controller.rb:94:in `block in stop'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/controllers/controller.rb:135:in `tail_log'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/controllers/controller.rb:93:in `stop'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/runner.rb:200:in `run_command'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/runner.rb:156:in `run!'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/bin/thin:6:in `<top (required)>'
+	from /usr/local/bin/thin:23:in `load'
+	from /usr/local/bin/thin:23:in `<main>'
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /dashboard HTTP/1.1" 200 4991 0.0026
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /events HTTP/1.1" 200 - 15.2935
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [11/Mar/2015 11:26:23] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:25] "GET /dashboard HTTP/1.1" 200 4991 0.0025
+192.168.1.30 - - [11/Mar/2015 11:26:25] "GET /events HTTP/1.1" 200 - 2.0992
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:26] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0006
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /dashboard HTTP/1.1" 200 4991 0.0025
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /events HTTP/1.1" 200 - 12.2724
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/graph.html HTTP/1.1" 200 167 0.0116
+192.168.1.30 - - [11/Mar/2015 11:26:38] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0006
+192.168.1.30 - - [11/Mar/2015 11:26:39] "GET /dashboard HTTP/1.1" 200 4991 0.0033
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /events HTTP/1.1" 200 - 1.5255
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0005
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [11/Mar/2015 11:26:40] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0006
+192.168.1.30 - - [11/Mar/2015 11:27:14] "GET /dashboard HTTP/1.1" 200 4991 0.0026
+192.168.1.30 - - [11/Mar/2015 11:27:14] "GET /events HTTP/1.1" 200 - 34.5498
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [11/Mar/2015 11:27:16] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+Waiting for 3 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+192.168.1.30 - - [11/Mar/2015 11:27:50] "GET /events HTTP/1.1" 200 - 33.8322
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.30 - - [11/Mar/2015 11:29:43] "GET /dashboard HTTP/1.1" 200 4991 0.0029
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/image.html HTTP/1.1" 200 73 0.0007
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [11/Mar/2015 11:29:45] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+192.168.1.30 - - [11/Mar/2015 12:00:13] "GET /events HTTP/1.1" 200 - 1828.1713
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /dashboard HTTP/1.1" 200 4991 0.0025
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/image.html HTTP/1.1" 200 73 0.0006
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/health.html HTTP/1.1" 200 224 0.0005
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/meter.html HTTP/1.1" 200 332 0.0005
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/number.html HTTP/1.1" 200 339 0.0005
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0005
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/graph.html HTTP/1.1" 200 167 0.0005
+192.168.1.30 - - [11/Mar/2015 12:24:06] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0006
+192.168.1.30 - - [11/Mar/2015 12:54:13] "GET /events HTTP/1.1" 200 - 1806.7510
+172.16.2.109 - - [11/Mar/2015 14:15:17] "GET /dashboard HTTP/1.1" 200 4991 0.0027
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+172.16.2.109 - - [11/Mar/2015 14:15:18] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+172.16.2.98 - - [11/Mar/2015 14:23:19] "GET /events HTTP/1.1" 200 - 150.3074
+172.16.2.98 - - [11/Mar/2015 14:24:10] "GET /events HTTP/1.1" 200 - 150.7325
+172.16.2.109 - - [11/Mar/2015 14:26:20] "GET /events HTTP/1.1" 200 - 661.5753
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /dashboard HTTP/1.1" 200 4991 0.0208
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /events HTTP/1.1" 200 - 9779.3757
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/image.html HTTP/1.1" 200 73 0.0009
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/health.html HTTP/1.1" 200 224 0.0007
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/meter.html HTTP/1.1" 200 332 0.0007
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/number.html HTTP/1.1" 200 339 0.0006
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0008
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/graph.html HTTP/1.1" 200 167 0.0006
+192.168.1.30 - - [11/Mar/2015 16:48:42] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/health_nova.rb:15:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/traffic.rb:44:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.30 - - [11/Mar/2015 17:15:18] "GET /events HTTP/1.1" 200 - 1595.9875
+192.168.1.30 - - [12/Mar/2015 04:07:15] "GET /events HTTP/1.1" 200 - 7591.8017
+192.168.1.30 - - [12/Mar/2015 04:32:29] "GET /events HTTP/1.1" 200 - 1415.7092
+192.168.1.30 - - [12/Mar/2015 09:11:03] "GET /events HTTP/1.1" 200 - 963.7127
+192.168.1.30 - - [12/Mar/2015 09:37:02] "GET /events HTTP/1.1" 200 - 752.9273
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/health_nova.rb:15:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:12:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:43:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.30 - - [12/Mar/2015 12:12:59] "GET /events HTTP/1.1" 200 - 8496.1631
+192.168.1.30 - - [12/Mar/2015 13:37:47] "GET /events HTTP/1.1" 200 - 2410.3748
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/health_nova.rb:15:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/health_nova.rb:15:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:12:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /dashboard HTTP/1.1" 200 4991 0.0428
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /events HTTP/1.1" 200 - 9386.6623
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/image.html HTTP/1.1" 200 73 0.0240
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/health.html HTTP/1.1" 200 224 0.0080
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/number.html HTTP/1.1" 200 339 0.0007
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/meter.html HTTP/1.1" 200 332 0.0006
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0006
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/graph.html HTTP/1.1" 200 167 0.0005
+192.168.1.30 - - [12/Mar/2015 16:24:42] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [12/Mar/2015 17:06:52] "GET /events HTTP/1.1" 200 - 2529.2303
+192.168.1.30 - - [13/Mar/2015 04:33:50] "GET /events HTTP/1.1" 200 - 9187.7832
+192.168.1.30 - - [14/Mar/2015 04:33:20] "GET /events HTTP/1.1" 200 - 9158.3080
+192.168.1.30 - - [15/Mar/2015 04:19:15] "GET /events HTTP/1.1" 200 - 8314.3522
+192.168.1.30 - - [16/Mar/2015 09:31:20] "GET /dashboard HTTP/1.1" 200 4991 0.0340
+192.168.1.30 - - [16/Mar/2015 09:31:20] "GET /events HTTP/1.1" 200 - 1443.4861
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/image.html HTTP/1.1" 200 73 0.0006
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/health.html HTTP/1.1" 200 224 0.0005
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/meter.html HTTP/1.1" 200 332 0.0005
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/number.html HTTP/1.1" 200 339 0.0006
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/graph.html HTTP/1.1" 200 167 0.0195
+192.168.1.30 - - [16/Mar/2015 09:31:21] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [16/Mar/2015 09:45:00] "GET /dashboard HTTP/1.1" 200 4991 0.0354
+192.168.1.30 - - [16/Mar/2015 09:45:00] "GET /events HTTP/1.1" 200 - 819.4069
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/image.html HTTP/1.1" 200 73 0.0004
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/health.html HTTP/1.1" 200 224 0.0003
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/meter.html HTTP/1.1" 200 332 0.0003
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/graph.html HTTP/1.1" 200 167 0.0007
+192.168.1.30 - - [16/Mar/2015 09:45:01] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [16/Mar/2015 09:47:52] "GET /dashboard HTTP/1.1" 200 4991 0.0227
+192.168.1.30 - - [16/Mar/2015 09:47:52] "GET /events HTTP/1.1" 200 - 171.6252
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/image.html HTTP/1.1" 200 73 0.0006
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/health.html HTTP/1.1" 200 224 0.0003
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/graph.html HTTP/1.1" 200 167 0.0005
+192.168.1.30 - - [16/Mar/2015 09:47:53] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [16/Mar/2015 09:48:07] "GET /dashboard HTTP/1.1" 200 4991 0.0523
+192.168.1.30 - - [16/Mar/2015 09:48:07] "GET /events HTTP/1.1" 200 - 14.7936
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/image.html HTTP/1.1" 200 73 0.0004
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/health.html HTTP/1.1" 200 224 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/meter.html HTTP/1.1" 200 332 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/number.html HTTP/1.1" 200 339 0.0072
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:08] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /dashboard HTTP/1.1" 200 4991 0.0530
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /events HTTP/1.1" 200 - 10.2512
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/image.html HTTP/1.1" 200 73 0.0009
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/health.html HTTP/1.1" 200 224 0.0105
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/meter.html HTTP/1.1" 200 332 0.0063
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/number.html HTTP/1.1" 200 339 0.0008
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/graph.html HTTP/1.1" 200 167 0.0006
+192.168.1.30 - - [16/Mar/2015 09:48:18] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /dashboard HTTP/1.1" 200 4991 0.0095
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /events HTTP/1.1" 200 - 2.9720
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/image.html HTTP/1.1" 200 73 0.0007
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/health.html HTTP/1.1" 200 224 0.0003
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/number.html HTTP/1.1" 200 339 0.0005
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0005
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/graph.html HTTP/1.1" 200 167 0.0007
+192.168.1.30 - - [16/Mar/2015 09:48:21] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [16/Mar/2015 12:17:55] "GET /events HTTP/1.1" 200 - 8974.2449
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:43:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.30 - - [16/Mar/2015 16:17:43] "GET /dashboard HTTP/1.1" 200 4991 0.0398
+192.168.1.30 - - [16/Mar/2015 16:17:43] "GET /events HTTP/1.1" 200 - 12092.4179
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/image.html HTTP/1.1" 200 73 0.0004
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [16/Mar/2015 16:17:44] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0005
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /dashboard HTTP/1.1" 200 4991 0.0163
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /events HTTP/1.1" 200 - 65.3992
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/image.html HTTP/1.1" 200 73 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [16/Mar/2015 16:18:49] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0003
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /dashboard HTTP/1.1" 200 4991 0.0166
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /events HTTP/1.1" 200 - 2.5335
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/image.html HTTP/1.1" 200 73 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [16/Mar/2015 16:18:52] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0003
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/traffic.rb:44:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.30 - - [16/Mar/2015 17:05:03] "GET /events HTTP/1.1" 200 - 2770.8708
+192.168.1.30 - - [17/Mar/2015 09:25:06] "GET /events HTTP/1.1" 200 - 1686.3533
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:43:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:43:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+No JSON object could be decoded
+================================================================================
+scheduler caught exception:
+A JSON text must at least contain two octets!
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `initialize'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `new'
+/usr/lib/ruby/1.9.1/json/common.rb:148:in `parse'
+/home/openstack/dashing-openstack/jobs/openstack.rb:43:in `get_tenant_data'
+/home/openstack/dashing-openstack/jobs/openstack.rb:121:in `block (2 levels) in <top (required)>'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `each'
+/home/openstack/dashing-openstack/jobs/openstack.rb:120:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.30 - - [17/Mar/2015 12:16:35] "GET /events HTTP/1.1" 200 - 9729.4080
+192.168.1.30 - - [17/Mar/2015 13:14:08] "GET /dashboard HTTP/1.1" 200 4991 0.0248
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /events HTTP/1.1" 200 - 823.1975
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/number.html HTTP/1.1" 200 339 0.0172
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [17/Mar/2015 13:14:09] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+192.168.1.30 - - [17/Mar/2015 13:17:46] "GET /dashboard HTTP/1.1" 200 4991 0.0025
+192.168.1.30 - - [17/Mar/2015 13:17:46] "GET /events HTTP/1.1" 200 - 217.1220
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/meter.html HTTP/1.1" 200 332 0.0003
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0006
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [17/Mar/2015 13:17:47] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+192.168.1.30 - - [17/Mar/2015 16:51:10] "GET /events HTTP/1.1" 200 - 12803.7278
+192.168.1.30 - - [17/Mar/2015 17:09:47] "GET /events HTTP/1.1" 200 - 873.3104
+192.168.1.30 - - [18/Mar/2015 09:19:35] "GET /dashboard HTTP/1.1" 200 4991 0.0027
+192.168.1.30 - - [18/Mar/2015 09:19:35] "GET /events HTTP/1.1" 200 - 1098.6470
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/meter.html HTTP/1.1" 200 332 0.0003
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0005
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+192.168.1.30 - - [18/Mar/2015 09:19:36] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+/var/lib/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/backends/base.rb:63:in `block in start'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/backends/base.rb:73:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/server.rb:162:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/controllers/controller.rb:87:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/runner.rb:200:in `run_command'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/lib/thin/runner.rb:156:in `run!'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.3/bin/thin:6:in `<top (required)>'
+	from /usr/local/bin/thin:23:in `load'
+	from /usr/local/bin/thin:23:in `<main>'
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.30 - - [18/Mar/2015 09:21:54] "GET /dashboard HTTP/1.1" 200 4991 0.0196
+192.168.1.30 - - [18/Mar/2015 09:21:54] "GET /events HTTP/1.1" 200 - 138.5742
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/image.html HTTP/1.1" 200 73 0.0006
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [18/Mar/2015 09:21:55] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004
+192.168.1.30 - - [18/Mar/2015 09:22:19] "GET /dashboard HTTP/1.1" 200 4991 0.0216
+192.168.1.30 - - [18/Mar/2015 09:22:19] "GET /events HTTP/1.1" 200 - 24.7546
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/image.html HTTP/1.1" 200 73 0.0004
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/health.html HTTP/1.1" 200 224 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/meter.html HTTP/1.1" 200 332 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/graph.html HTTP/1.1" 200 167 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:20] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:38] "GET /dashboard HTTP/1.1" 200 4991 0.0028
+192.168.1.30 - - [18/Mar/2015 09:22:38] "GET /events HTTP/1.1" 200 - 18.8610
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/health.html HTTP/1.1" 200 224 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/meter.html HTTP/1.1" 200 332 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/number.html HTTP/1.1" 200 339 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0003
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/graph.html HTTP/1.1" 200 167 0.0074
+192.168.1.30 - - [18/Mar/2015 09:22:39] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0141
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+192.168.1.30 - - [18/Mar/2015 09:23:45] "GET /events HTTP/1.1" 200 - 66.7032
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop

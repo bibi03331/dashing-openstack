@@ -1,0 +1,85 @@
+<script type='text/javascript'>
+$(function() {
+  Dashing.numColumns = 6
+  Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":2,"size_y":1},{"col":5,"row":1,"size_x":2,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":1,"row":3,"size_x":1,"size_y":1},{"col":2,"row":3,"size_x":1,"size_y":1},{"col":3,"row":3,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1},{"col":5,"row":2,"size_x":1,"size_y":1},{"col":4,"row":3,"size_x":1,"size_y":1},{"col":6,"row":2,"size_x":1,"size_y":1},{"col":6,"row":3,"size_x":1,"size_y":1},{"col":5,"row":3,"size_x":1,"size_y":1}]')
+});
+</script>
+
+<% content_for :title do %>Dashing Mac And Co<% end %>
+
+<script>
+refresh_secs = getQueryVariable('refresh');
+
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable) {
+      return pair[1];
+    }
+  }
+}
+
+function refresh() {
+  window.location.reload(true);
+  setTimeout(refresh, refresh_secs * 1000);
+}
+
+if (refresh_secs != null)
+  window.onload=setTimeout(refresh, refresh_secs * 1000);
+
+</script>
+<div class="gridster" >
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="catalyst" data-view="Image" data-title="logo" data-image="/logo-ceph.png" data-width="150px"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="statusCeph" data-view="Health" data-title="Etat du stockage :" data-text=". status will show here ."></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="statusNova" data-view="Health" data-title="Etat des hyperviseurs :" data-text=". status will show here ."></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="storage" data-view="Meter" data-title="Occupation du cluster"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="pool0" data-view="Number"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="pool1" data-view="Number"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="pool2" data-view="Number"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="traffic" data-view="Mgraph" data-title="Traffic" data-moreinfo="read / write"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="iops" data-view="Graph" data-title="Opérations en temps réel"></div>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="openstack" data-view="Image" data-title="logo" data-image="/logo-openstack.png" data-width="250px"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="vcpus-hypervisor" data-view="Meter" data-title="Hypervisor VCPUs"></div>
+    </li>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="ram-hypervisor" data-view="Meter" data-title="Hypervisor Memory"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cores-tenant" data-view="ProgressBars" data-title="VCPUs"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="instances-tenant" data-view="ProgressBars" data-title="Instances"></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="ram-tenant" data-view="ProgressBars" data-title="Memory"></div>
+    </li>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="storage-tenant" data-view="ProgressBars" data-title="Storage"></div>
+    </li>
+  </ul>
+</div>
